@@ -1,0 +1,60 @@
+{
+  "id": 10,
+  "name": "Otávio",
+  "currentMoney": 10000,
+  "image": "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=format&fit=crop&ar=1%3A1&ixlib=react-9.7.0&w=441",
+  "transactions": [
+    {
+      "time": "11-04-2023",
+      "type": "Sell",
+      "coin": {
+        "name": "bitcoin",
+        "quantity": 0.2222,
+        "price": 6219.38
+      },
+      "method": "USD"
+    },
+    {
+      "time": "10-04-2023",
+      "type": "Buy",
+      "coin": {
+        "name": "bitcoin",
+        "quantity": 1.2225,
+        "price": 34432.32
+      },
+      "method": "USD"
+    },
+    {
+      "time": "06-04-2023",
+      "type": "Buy",
+      "coin": {
+        "name": "ethereum",
+        "quantity": 2.525,
+        "price": 4598.71
+      },
+      "method": "USD"
+    },
+    {
+      "time": "04-04-2023",
+      "type": "Withdraw",
+      "price": 6258.37,
+      "method": "USD"
+    },
+    {
+      "time": "02-04-2023",
+      "type": "Deposit",
+      "price": 42628.22,
+      "method": "USD"
+    }
+  ],
+  "currentInvestments": {
+    "ethereum": {
+      "quantity": 2.525,
+      "price": 4598.71
+    },
+    "btc": {
+      "quantity": 1.2225,
+      "price": 34432.32
+    }
+  }
+}
