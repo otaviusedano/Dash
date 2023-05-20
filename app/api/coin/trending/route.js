@@ -1,4 +1,4 @@
-import trending from "../../../../data/apiTrending.json"
+import trending from "@/data/apiTrending.json"
 import { NextResponse } from "next/server"
 
 

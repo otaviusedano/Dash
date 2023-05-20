@@ -1,4 +1,4 @@
-import ethereum from "../../../../data/apiEthereum.json"
+import ethereum from "@/data/apiEthereum.json"
 import { NextResponse } from "next/server"
 
 

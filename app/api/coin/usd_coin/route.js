@@ -1,4 +1,4 @@
-import usdCoin from "../../../../data/apiUsdCoin.json"
+import usdCoin from "@/data/apiUsdCoin.json"
 import { NextResponse } from "next/server"
 
 

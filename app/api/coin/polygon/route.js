@@ -1,4 +1,4 @@
-import matic_network from "../../../../data/apiMaticNetwork.json"
+import matic_network from "@/data/apiMaticNetwork.json"
 import { NextResponse } from "next/server"
 
 

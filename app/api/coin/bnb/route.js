@@ -1,4 +1,4 @@
-import binancecoin from "../../../../data/apiBinanceCoin.json"
+import binancecoin from "@/data/apiBinanceCoin.json"
 import { NextResponse } from "next/server"
 
 

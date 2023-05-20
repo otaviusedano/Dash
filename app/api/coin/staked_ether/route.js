@@ -1,4 +1,4 @@
-import staked_ether from "../../../../data/apiStakedEther.json"
+import staked_ether from "@/data/apiStakedEther.json"
 import { NextResponse } from "next/server"
 
 

@@ -1,4 +1,4 @@
-import dogecoin from "../../../../data/apiDogeCoin.json"
+import dogecoin from "@/data/apiDogeCoin.json"
 import { NextResponse } from "next/server"
 
 

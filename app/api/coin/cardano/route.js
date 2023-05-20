@@ -1,4 +1,4 @@
-import cardano from "../../../../data/apiCardano.json"
+import cardano from "@/data/apiCardano.json"
 import { NextResponse } from "next/server"
 
 

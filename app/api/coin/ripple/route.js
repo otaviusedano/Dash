@@ -1,4 +1,4 @@
-import ripple from "../../../../data/apiRipple.json"
+import ripple from "@/data/apiRipple.json"
 import { NextResponse } from "next/server"
 
 

@@ -1,7 +1,7 @@
 import { Suspense } from "react"
 
 
-import CotationCard from "../../components/CotationCard"
+import CotationCard from "@/components/CotationCard"
 import getAllCoins from "@/lib/getAllCoins"
 
 import ChartInitial from "@/components/ChartInitial"

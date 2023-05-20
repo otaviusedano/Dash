@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import userApi from "../../../data/apiUser.json"
+import userApi from "@/data/apiUser.json"
 
 
 export const config = {
