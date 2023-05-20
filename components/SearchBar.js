@@ -5,7 +5,7 @@ const searchBarVariants = cva(
 	{
 		variants: {
 			intent: {
-				primary: "bg-slate-200 text-slate-900 hover:bg-slate-300 focus:bg-slate-300 transition-colors",
+				primary: "bg-slate-200 text-slate-900 hover:bg-slate-50 focus:bg-slate-50 transition-colors",
 				secondary: "bg-slate-100 text-slate-900 hover:bg-slate-200 focus:bg-slate-200 transition-colors",
 			},
 			distance: {

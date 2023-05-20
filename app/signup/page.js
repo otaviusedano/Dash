@@ -25,7 +25,7 @@ export default function Signup() {
 					<span className="text-slate-50 font-semibold">Lead Designer, Layers</span>
 				</div>
 			</div>
-			<div className="flex-1 flex justify-center items-center ">
+			<div className="flex-1 flex justify-center items-center">
 				<div className="grid min-w-[40%]">
 					<h1 className="font-semibold text-4xl pb-3">Sign up</h1>
 					<span className="text-gray-400 pb-4">Welcome! Please create your user.</span>

@@ -9,13 +9,9 @@ import Button from "./Button"
 
 const SearchButton = ({children, intent, ...props}) => {
 	const dispatch = useDispatch()
-	// const coinSearched = useSelector(state => state.search.search)
 
 	async function handlerGetSearch() {
 		const searchCoin = await getSearchCoin()
-
-		// console.log(coinSearched)
-
 		dispatch(setCoinToSearch(searchCoin))
 	}
 

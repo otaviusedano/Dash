@@ -7,9 +7,7 @@ const buttonVariants = cva(
 	{
 		variants: {
 			intent: {
-				primary: "hover:bg-slate-950 text-slate-200 bg-slate-900",
-				secondary: "hover:text-slate-200 hover:bg-slate-900 bg-slate-50",
-				signIn: "hover:text-slate-950 hover:border-slate-950 text-slate-400 border-slate-400 border"
+				primary: "hover:text-slate-950 hover:bg-slate-50 text-slate-200 bg-slate-900"
 			}
 		},
 		defaultVariants: {

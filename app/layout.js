@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
 			<body>
 				<Providers>
 					<SideNav />
-					<div className="max-w-[1328px] mx-[10%] p-6 py-10 min-h-screen bg-slate-50">
+					<div className="max-w-[75%] mx-[10%] p-6 py-10 min-h-screen bg-slate-50">
 						{children}
 					</div>
 					<ProfileSideBar/>

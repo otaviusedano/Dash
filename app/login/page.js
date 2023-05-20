@@ -1,13 +1,10 @@
+import Image from "next/image"
+
 import SearchBar from "@/components/SearchBar"
 import Button from "@/components/Button"
 import Link from "next/link"
 
-import Carousel from "@/components/Carousel"
-
-import imagem1 from "@/public/carousel/imagem1.jpg"
-import imagem2 from "@/public/carousel/imagem2.jpg"
-import imagem3 from "@/public/carousel/imagem3.jpg"
-import Image from "next/image"
+import image from "@/public/perfil/perfil1.jpg"
 
 export const metadata = {
 	title: "Login",
@@ -15,8 +12,6 @@ export const metadata = {
 }
 
 export default function Login() {
-	const slides = [imagem1, imagem2, imagem3]
-
 	return (
 		<section className="text-slate-950 flex bottom-0 left-0 bg-gray-50 fixed h-screen w-screen z-20">
 			<div className="flex-1 flex justify-center items-center ">
@@ -40,19 +35,18 @@ export default function Login() {
 						</div>
 						<Link className="text-sm font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Forgot password</Link>
 					</div>
-					<Button><Link href={"/"}>Sign in</Link></Button>
+					<Button><Link className="flex justify-center" href={"/"}>Sign in</Link></Button>
 					<span className="text-gray-400 pt-4">Don&apos;t have an account? <Link className="font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Sign up</Link></span>
 				</div>
 			</div>
 			<div className="flex-1 relative">
-				<Carousel>
-					{slides.map((slide, i) => (
-						<Image key={i} quality={100} src={slide} alt={i} />
-					))}
-				</Carousel>
-				<div className="absolute left-0 bottom-0 text-center right-0 z-30 pb-[20%] ">
-					<h1 className="text-slate-50 text-xl font-bold">Welcome to your new dashboard</h1>
-					<span className="text-slate-200">Sign in to explore changes we&apos;ve made.</span>
+				<div className="absolute top-[45%] left-[0%] mx-[10%]">
+					<span className="text-slate-50 font-semibold text-4xl">Be unique. Be authentic. Be Dash, just it.</span>
+				</div>
+				<Image quality={100} src={image} alt={image} />
+				<div className="grid gap-2 absolute bottom-12 left-12">
+					<h1 className="text-slate-50 text-2xl font-bold">Catarina Lawyes</h1>
+					<span className="text-slate-50 font-semibold">CEO, Layers</span>
 				</div>
 			</div>
 		</section>

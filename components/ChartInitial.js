@@ -34,9 +34,9 @@ const ChartInitial = () => {
 	return (
 		<>
 			<div className="flex gap-2 justify-end">
-				<Button intent="secondary" onClick={() => handleSetLabel(labels24h)}>24h</Button>
-				<Button intent="secondary" onClick={() => handleSetLabel(labels7days)} >7 Days</Button>
-				<Button intent="secondary" onClick={() => handleSetLabel(labels1month)} >1 Month</Button>
+				<Button onClick={() => handleSetLabel(labels24h)}>24h</Button>
+				<Button onClick={() => handleSetLabel(labels7days)} >7 Days</Button>
+				<Button onClick={() => handleSetLabel(labels1month)} >1 Month</Button>
 			</div>
 			<div className="">
 				<ChartLine size="secondary" color="secondary" backgroundColor="secondary" coinName={coinName}/>

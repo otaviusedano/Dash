@@ -27,7 +27,7 @@ const Filter = ({coins}) => {
 
 	function handleGetType(type) {
 		dispatch(setFilter(filterType(type)))
-		return console.log(type)
+		return
 	}
 
 	const filter = coins.filter(coin => {
@@ -42,8 +42,8 @@ const Filter = ({coins}) => {
 	return (
 		<div className="flex gap-4">
 			<div className="flex gap-2 justify-end">
-				<Button onClick={() => handleGetType("upper")} intent="secondary">Upper</Button>
-				<Button onClick={() => handleGetType("lower")} intent="secondary">Lower</Button>
+				<Button onClick={() => handleGetType("upper")}>Upper</Button>
+				<Button onClick={() => handleGetType("lower")}>Lower</Button>
 			</div>
 			<SearchBar onChange={(e) => handleSearchCoin(e.target.value)} placeholder='Search a coin' />
 		</div>
