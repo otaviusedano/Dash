@@ -2,6 +2,7 @@ import Image from "next/image"
 import getUser from "@/lib/getUser"
 
 import { FiBell } from "@react-icons/all-files/fi/FiBell"
+import { FiUser } from "@react-icons/all-files/fi/FiUser"
 
 import coinReplaced from "@/utils/formatPriceCurrency"
 import RecentCoins from "./RecentCoins"
@@ -10,7 +11,7 @@ export default async function ProfileSideBar() {
 	let favoriteMethod
 	let totalDeposits = 0
 
-	const { image, name, transactions, currentInvestments } = await getUser()
+	const { name, transactions, currentInvestments } = await getUser()
 
 	const totalCoins = Object.keys(currentInvestments).length
 
@@ -35,7 +36,9 @@ export default async function ProfileSideBar() {
 							<h1 className="font-bold">{name}</h1>
 							<span className="font-extralight text-sm text-gray-400">Online</span>
 						</div>
-						<Image className="rounded-full" quality={100} src={image} height={52} width={52} alt={name} />
+						<div className="bg-slate-300 p-4 rounded-full">
+							<FiUser className="text-slate-950" size={20}/>
+						</div>
 					</div>
 				</div>
 			</header>
