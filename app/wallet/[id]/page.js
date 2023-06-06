@@ -82,8 +82,8 @@ export default async function Wallet() {
 
 	labelsTotalTransactions = newTransactions.map((t) => `Day ${t.day}`)
 
-	labelsTotalTransactions.map((_) =>  totalTranscitions.push(1))
-
+	// eslint-disable-next-line no-unused-vars
+	labelsTotalTransactions.map((_) => totalTranscitions.push(1))
 
 	let transactionsDeposit = []
 	let arrWith = []

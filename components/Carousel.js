@@ -1,11 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { FiShoppingCart } from "@react-icons/all-files/fi/FiShoppingCart"
 import { FiChevronLeft } from "@react-icons/all-files/fi/FiChevronLeft"
 import { FiChevronRight } from "@react-icons/all-files/fi/FiChevronRight"
-
-
 
 
 const Carousel = ({children: slides}) => {

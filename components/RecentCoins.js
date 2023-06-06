@@ -2,7 +2,7 @@
 
 import IconsTrending from "./iconsTrending"
 
-const RecentCoins = ({transactions}) => {
+const RecentCoins = () => {
 	// const [ isAllTransactions, setIsAllTransactions ] = useState(false)
 	// let newTransactions = []
 

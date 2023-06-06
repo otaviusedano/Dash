@@ -61,7 +61,7 @@ export default async function ProfileSideBar() {
 					</div>
 				</div>
 			</div>
-			<RecentCoins transactions={transactions}/>
+			<RecentCoins />
 		</nav>
 	)
 }
