@@ -1,4 +1,3 @@
-import Image from "next/image"
 import getUser from "@/lib/getUser"
 
 import { FiBell } from "@react-icons/all-files/fi/FiBell"

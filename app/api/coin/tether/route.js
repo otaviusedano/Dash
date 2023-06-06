@@ -1,4 +1,4 @@
-import tether from "@/data/apitether.json"
+import tether from "../../../../data/apitether.json"
 import { NextResponse } from "next/server"
 
 

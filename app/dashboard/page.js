@@ -7,9 +7,6 @@ import getAllCoins from "@/lib/getAllCoins"
 import ChartInitial from "@/components/ChartInitial"
 import DashboardHeader from "@/components/DashboardHeader"
 
-// import Link from "next/link"
-
-
 export default async function Dashboard() {
 	
 	const allCoins = await getAllCoins()

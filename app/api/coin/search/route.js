@@ -1,4 +1,4 @@
-import coinsApi from "@/data/apiCoins.json"
+import coinsApi from "../../../../data/apiCoins.json"
 
 import { NextResponse } from "next/server"
 
