@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useDispatch } from "react-redux"
-import { setFilter } from "@/features/filter"
+import { setFilter } from "../features/filter"
 
 import Button from "./Button"
 import SearchBar from "./SearchBar"

@@ -1,11 +1,11 @@
 import { Suspense } from "react"
 
 
-import CotationCard from "@/components/CotationCard"
-import getAllCoins from "@/lib/getAllCoins"
+import CotationCard from "../../components/CotationCard"
+import getAllCoins from "../../lib/getAllCoins"
 
-import ChartInitial from "@/components/ChartInitial"
-import DashboardHeader from "@/components/DashboardHeader"
+import ChartInitial from "../../components/ChartInitial"
+import DashboardHeader from "../../components/DashboardHeader"
 
 export default async function Dashboard() {
 	

@@ -1,6 +1,6 @@
-import ChartDoughnut from "@/components/ChartDoughnut"
-import TransactionCoin from "@/components/TransactionCoin"
-import getUser from "@/lib/getUser"
+import ChartDoughnut from "../../../components/ChartDoughnut"
+import TransactionCoin from "../../../components/TransactionCoin"
+import getUser from "../../../lib/getUser"
 
 
 export const metadata = {

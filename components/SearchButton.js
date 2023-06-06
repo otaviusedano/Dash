@@ -2,8 +2,8 @@
 
 import { useDispatch } from "react-redux"
 
-import { getSearchCoin } from "@/lib/getSearchCoin"
-import { setCoinToSearch } from "@/features/search"
+import { getSearchCoin } from "../lib/getSearchCoin"
+import { setCoinToSearch } from "../features/search"
 import Button from "./Button"
 
 

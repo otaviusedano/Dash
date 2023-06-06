@@ -1,5 +1,5 @@
-import SearchBar from "@/components/SearchBar"
-import getUser from "@/lib/getUser"
+import SearchBar from "../../../components/SearchBar"
+import getUser from "../../../lib/getUser"
 import Image from "next/image"
 
 export const metadata = {

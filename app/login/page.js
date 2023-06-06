@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-import SearchBar from "@/components/SearchBar"
-import Button from "@/components/Button"
+import SearchBar from "../../components/SearchBar"
+import Button from "../../components/Button"
 import Link from "next/link"
 
-import image from "@/public/perfil/perfil1.jpg"
+import image from "../../public/perfil/perfil1.jpg"
 
 export const metadata = {
 	title: "Login",

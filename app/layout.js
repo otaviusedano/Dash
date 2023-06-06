@@ -1,6 +1,6 @@
-import ProfileSideBar from "@/components/ProfileSideBar"
-import Providers from "@/components/Providers"
-import SideNav from "@/components/SideNav"
+import ProfileSideBar from "../components/ProfileSideBar"
+import Providers from "../components/Providers"
+import SideNav from "../components/SideNav"
 import "./globals.css"
 
 export const metadata = {

@@ -6,7 +6,7 @@ import { FiSearch } from "@react-icons/all-files/fi/FiSearch"
 
 import SearchButton from "./SearchButton"
 import SearchCoinBar from "./SearchCoinBar"
-import coinReplaced from "@/utils/formatPriceCurrency"
+import coinReplaced from "../utils/formatPriceCurrency"
 
 const DashboardHeader = ({ allCoins }) => {
 	const selector = useSelector

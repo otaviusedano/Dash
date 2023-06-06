@@ -1,6 +1,6 @@
-import Cards from "@/components/Cards"
-import Filter from "@/components/Filter"
-import getTrendingCoins from "@/lib/getTrendingCoin."
+import Cards from "../../components/Cards"
+import Filter from "../../components/Filter"
+import getTrendingCoins from "../../lib/getTrendingCoin."
 
 export const metadata = {
 	title: "Trending",

@@ -2,7 +2,7 @@
 
 import { useDispatch } from "react-redux"
 
-import { setSearch } from "@/features/search"
+import { setSearch } from "../features/search"
 
 import SearchBar from "./SearchBar"
 

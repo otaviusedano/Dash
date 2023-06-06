@@ -1,6 +1,6 @@
 "use client"
 
-import coinReplaced from "@/utils/formatPriceCurrency"
+import coinReplaced from "../utils/formatPriceCurrency"
 import { FiCreditCard } from "@react-icons/all-files/fi/FiCreditCard"
 import { FiShoppingCart } from "@react-icons/all-files/fi/FiShoppingCart"
 

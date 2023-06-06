@@ -1,9 +1,9 @@
-import getUser from "@/lib/getUser"
+import getUser from "../lib/getUser"
 
 import { FiBell } from "@react-icons/all-files/fi/FiBell"
 import { FiUser } from "@react-icons/all-files/fi/FiUser"
 
-import coinReplaced from "@/utils/formatPriceCurrency"
+import coinReplaced from "../utils/formatPriceCurrency"
 import RecentCoins from "./RecentCoins"
 
 export default async function ProfileSideBar() {

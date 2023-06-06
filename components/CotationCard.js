@@ -7,7 +7,7 @@ import { cva } from "class-variance-authority"
 import ChartLine  from "./ChartLine"
 import IconsTrending from "./iconsTrending"
 import colorsVariants from "./colorsVariants"
-import coinReplaced from "@/utils/formatPriceCurrency"
+import coinReplaced from "../utils/formatPriceCurrency"
 
 
 

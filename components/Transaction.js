@@ -1,7 +1,7 @@
 "use client"
 
-import coinReplaced from "@/utils/formatPriceCurrency"
-import timeFormatted from "@/utils/formatTime"
+import coinReplaced from "../utils/formatPriceCurrency"
+import timeFormatted from "../utils/formatTime"
 
 import { FiChevronDown } from "@react-icons/all-files/fi/FiChevronDown"
 import { FiChevronUp } from "@react-icons/all-files/fi/FiChevronUp"

@@ -1,7 +1,7 @@
 import Image from "next/image"
 
-import IconsTrending from "@/components/iconsTrending"
-import colorsVariants from "@/components/colorsVariants"
+import IconsTrending from "../components/iconsTrending"
+import colorsVariants from "../components/colorsVariants"
 
 export function Card({coin}) {
 	const coinPriceChange = parseFloat(coin.price_change_percentage_24h).toFixed(5)
