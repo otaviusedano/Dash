@@ -1,3 +1,5 @@
+"use server"
+
 import { Suspense } from "react"
 
 
@@ -8,7 +10,7 @@ import ChartInitial from "../../components/ChartInitial"
 import DashboardHeader from "../../components/DashboardHeader"
 
 export default async function Dashboard() {
-	
+
 	const allCoins = await getAllCoins()
 
 
