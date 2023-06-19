@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://${process.env.VERCEL_URL}:3000](http://${process.env.VERCEL_URL}:3000) with your browser to see the result.
+Open [http://${process.env.VERCEL_URL}process.env.VERCEL_URL](http://${process.env.VERCEL_URL}process.env.VERCEL_URL) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
