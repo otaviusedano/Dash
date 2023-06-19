@@ -1,4 +1,4 @@
-"use server"
+'use server'
 
 import Cards from "../../components/Cards"
 import Filter from "../../components/Filter"
