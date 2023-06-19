@@ -121,7 +121,7 @@ export const ChartLine = ({ isTiny, size, position, color, backgroundColor, coin
 	let delayed = false
 
 	const coinData = coinName ? use(queryClient(coinName, () =>
-		fetch(`http://127.0.0.1:3000/api/coin/${coinName.toLowerCase()}`).then(res => 
+		fetch(`https://127.0.0.1:3000/api/coin/${coinName.toLowerCase()}`).then(res => 
 			res.json()
 		)
 	)) : null
