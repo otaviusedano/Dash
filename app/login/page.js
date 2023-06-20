@@ -36,11 +36,11 @@ export default async function Login() {
 					<span className="text-gray-400 pt-4">Don&apos;t have an account? <Link className="font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Sign up</Link></span>
 				</div>
 			</div>
-			<div className="flex-1 relative">
+			<div className="flex-1 relative hidden laptop:flex">
 				<div className="absolute top-[45%] left-[0%] mx-[10%]">
 					<span className="text-slate-50 font-semibold text-4xl">Be unique. Be authentic. Be Dash, just it.</span>
 				</div>
-				<Image quality={100} src={image} alt={image} />
+				<Image className="object-cover" quality={100} src={image} alt={image} />
 				<div className="grid gap-2 absolute bottom-12 left-12">
 					<h1 className="text-slate-50 text-2xl font-bold">Catarina Lawyes</h1>
 					<span className="text-slate-50 font-semibold">CEO, Layers</span>

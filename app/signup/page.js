@@ -12,11 +12,11 @@ export default async function Signup() {
 
 	return (
 		<section className="text-slate-950 flex bottom-0 left-0 bg-gray-50 fixed h-screen w-screen z-20">
-			<div className="flex-1 relative">
+			<div className="flex-1 relative hidden laptop:flex">
 				<div className="absolute top-[45%] left-[0%] text-center">
 					<span className="text-slate-50 font-semibold text-4xl">&quot;We&apos;ve been using Dash to kick start every new project and can&apos;t imagine working without it.&quot;</span>
 				</div>
-				<Image quality={100} src={imagem1} alt={imagem1} />
+				<Image className="object-cover" quality={100} src={imagem1} alt={imagem1} />
 				<div className="grid gap-2 absolute bottom-12 left-12">
 					<h1 className="text-slate-50 text-2xl font-bold">Olivia James</h1>
 					<span className="text-slate-50 font-semibold">Lead Designer, Layers</span>
