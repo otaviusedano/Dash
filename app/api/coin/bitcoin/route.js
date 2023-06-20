@@ -8,6 +8,8 @@ export const config = {
 }
 
 export function GET(req) {
+	console.log(req.hostname);
+	console.log('---------------------------------------------');
 	console.log(req);
-	return NextResponse.json(bitcoin)
+	return NextResponse.json(bitcoin, { url: process.env.VERCEL_URL})
 }
