@@ -7,9 +7,6 @@ export const config = {
 	regions: ["sfo1", "iad1"]
 }
 
-export function GET(req) {
-	console.log(req.hostname);
-	console.log('---------------------------------------------');
-	console.log(req);
-	return NextResponse.json(bitcoin, { url: process.env.VERCEL_URL})
+export function GET() {
+	return NextResponse.json(bitcoin)
 }
