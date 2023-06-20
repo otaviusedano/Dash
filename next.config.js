@@ -8,8 +8,6 @@ const nextConfig = {
 			{
 				protocol: "http",
 				hostname: "assets.coingecko.com",
-				port: "",
-				pathname: "/coins/images/**",
 			},
 			{
 				protocol: "http",
