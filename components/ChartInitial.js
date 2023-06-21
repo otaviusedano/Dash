@@ -33,7 +33,7 @@ const ChartInitial = () => {
 				<Button onClick={() => handleSetLabel(labels7days)} >7 Days</Button>
 				<Button onClick={() => handleSetLabel(labels1month)} >1 Month</Button>
 			</div> */}
-			<div className="">
+			<div>
 				<ChartLine size="secondary" color="secondary" backgroundColor="secondary" coinName={coinName}/>
 			</div>
 		</>

@@ -127,7 +127,7 @@ export const ChartLine = ({ isTiny, size, position, color, backgroundColor, coin
 	)) : null
 
 
-	if (!coinData) return <AlertDisplay>Name of coin Not found.</AlertDisplay>
+	if (!coinData) return <AlertDisplay>Coin Not found.</AlertDisplay>
 
 	const variableForMax = coinData?.prices[0][1] * (isTiny ? 1.18 : 1.20)
 	const variableForMin = coinData?.prices[0][1] / (isTiny ? 1.06 : 1.10)
