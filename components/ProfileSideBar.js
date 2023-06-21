@@ -36,7 +36,7 @@ export default async function ProfileSideBar() {
 							<h1 className="font-bold">{name}</h1>
 							<span className="font-extralight text-sm text-gray-400">Online</span>
 						</div>
-						<div className="bg-slate-300 p-4 rounded-full">
+						<div className="bg-slate-300 p-2 desktop:p-4 rounded-full">
 							<FiUser className="text-slate-950" size={20}/>
 						</div>
 					</div>
