@@ -5,7 +5,6 @@ import { FiUser } from "@react-icons/all-files/fi/FiUser"
 
 import coinReplaced from "../utils/formatPriceCurrency"
 import RecentCoins from "./RecentCoins"
-import Cards from "./Cards"
 
 export default async function ProfileSideBar() {
 	let favoriteMethod
@@ -63,7 +62,7 @@ export default async function ProfileSideBar() {
 				</div>
 			</div>
 			<RecentCoins />
-			
+
 		</nav>
 	)
 }
