@@ -4,7 +4,7 @@ import { FiCodepen } from "@react-icons/all-files/fi/FiCodepen"
 const Advertising = () => {
 
 	return (
-		<div className="cursor-pointer rounded-md bg-slate-900 text-slate-100 p-4">
+		<div className="cursor-pointer rounded-md bg-slate-950 text-slate-100 p-4">
             <div className="pb-2 flex justify-between items-center">
                 <FiBox size={66}/>
                 <span className="text-5xl">
