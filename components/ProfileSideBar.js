@@ -35,7 +35,7 @@ export default async function ProfileSideBar() {
 						<div className="flex gap-1 desktop:gap-3 items-center text-end">
 							<div>
 								<h1 className="font-bold">{name}</h1>
-								<span className="font-extralight text-sm text-gray-400">Online</span>
+								<span className="font-extralight text-xs text-gray-400">Online</span>
 							</div>
 							<div className="bg-slate-300 p-2 desktop:p-4 rounded-full">
 								<FiUser className="text-slate-950" size={20}/>
@@ -50,15 +50,15 @@ export default async function ProfileSideBar() {
 					</div>
 					<div className="flex justify-between flex-wrap big-desktop:flex-nowrap">
 						<div className="grid text-center text-xl">
-							<span className="font-normal text-sm break-all big-desktop:break-normal">Transactions</span>
+							<span className="font-normal text-xs break-all big-desktop:break-normal">Transactions</span>
 							<span className="font-semibold text-lg">{transactions.length}</span>
 						</div>
 						<div className="grid text-center text-xl">
-							<span className="font-normal text-sm">Favorite Method</span>
+							<span className="font-normal text-xs">Favorite Method</span>
 							<span className="font-semibold text-lg">{favoriteMethod}</span>
 						</div>
 						<div className="grid text-center gap-1">
-							<span className="font-normal text-sm">Total Coins</span>
+							<span className="font-normal text-xs">Total Coins</span>
 							<span className="font-semibold text-lg">{totalCoins}</span>
 						</div>
 					</div>

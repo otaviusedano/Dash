@@ -21,8 +21,8 @@ export default async function Profile() {
 						<Image className="rounded-full" quality={100} src={image} height={92} width={92} alt={name} />
 						<div className="grid gap-1">
 							<h1 className="font-bold text-2xl pb-1">{name}</h1>
-							<span className="font-bold text-sm text-gray-400">Online</span>
-							<span className="font-medium text-sm text-gray-400">Americana, Brazil</span>
+							<span className="font-bold text-xs text-gray-400">Online</span>
+							<span className="font-medium text-xs text-gray-400">Americana, Brazil</span>
 						</div>
 					</div>
 				</div>

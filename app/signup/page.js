@@ -28,15 +28,15 @@ export default async function Signup() {
 					<span className="text-gray-400 pb-4">Welcome! Please create your user.</span>
 					<div className="pb-5">
 						<div className="grid gap-2 py-4">
-							<span className="text-sm font-medium">Email</span>
+							<span className="text-xs font-medium">Email</span>
 							<SearchBar type='email' />
 						</div>
 						<div className="grid gap-2">
-							<span className="text-sm font-medium">Password</span>
+							<span className="text-xs font-medium">Password</span>
 							<SearchBar type='password' />
 						</div>
 						<div className="grid gap-2 py-4">
-							<span className="text-sm font-medium">Confirm Password</span>
+							<span className="text-xs font-medium">Confirm Password</span>
 							<SearchBar type='password' />
 						</div>
 					</div>

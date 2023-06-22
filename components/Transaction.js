@@ -28,7 +28,7 @@ const Transaction = ({data}) => {
 						}
 					</div>
 					<div className="grid">
-						<span className="text-gray-400 text-sm">{type}</span>
+						<span className="text-gray-400 text-xs">{type}</span>
 						<span className="font-medium">${coinReplaced(price?.toString() || coin.price.toString())}</span>
 					</div>
 				</div>
@@ -42,22 +42,22 @@ const Transaction = ({data}) => {
 					? (
 						<>
 							<div className="grid">
-								<span className="text-sm text-gray-400">Name</span>
+								<span className="text-xs text-gray-400">Name</span>
 								<span className="font-semibold text-lg">{coin?.name || method}</span>
 							</div>
 							<div className="grid">
-								<span className="text-sm text-gray-400">Quantity</span>
+								<span className="text-xs text-gray-400">Quantity</span>
 								<span className="font-semibold text-lg">{coin?.quantity}</span>
 							</div>
 						</>
 					) 
 					: <div className="grid">
-						<span className="text-sm text-gray-400">Method</span>
+						<span className="text-xs text-gray-400">Method</span>
 						<span className="font-semibold text-lg">{method}</span>
 					</div> 
 				}
 				<div className="grid">
-					<span className="text-sm text-gray-400">Time</span>
+					<span className="text-xs text-gray-400">Time</span>
 					<span className="font-semibold text-lg">{timeFormatted(time)}</span>
 				</div>
 			</div>

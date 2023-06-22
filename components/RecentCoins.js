@@ -22,7 +22,7 @@ const RecentCoins = () => {
 						<div className="bg-green-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending size={20}/>
 						</div>
-						<span className="text-sm">+1,31%</span>
+						<span className="text-xs">+1,31%</span>
 						<h1	className="font-medium ">DOLAR</h1>
 						<span>R$ 4,99</span>
 					</div>
@@ -30,7 +30,7 @@ const RecentCoins = () => {
 						<div className="bg-red-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending isNegative={true} size={20}/>
 						</div>
-						<span className="text-sm">-0,84%</span>
+						<span className="text-xs">-0,84%</span>
 						<h1	className="font-medium ">EURO</h1>
 						<span>R$ 5,39</span>
 					</div>
@@ -38,7 +38,7 @@ const RecentCoins = () => {
 						<div className="bg-green-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending size={20}/>
 						</div>
-						<span className="text-sm">+0,26%</span>
+						<span className="text-xs">+0,26%</span>
 						<h1	className="font-medium ">PESO</h1>
 						<span>R$ 0,022</span>
 					</div>
@@ -48,7 +48,7 @@ const RecentCoins = () => {
 						<div className="bg-green-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending size={20}/>
 						</div>
-						<span className="text-sm">+1,31%</span>
+						<span className="text-xs">+1,31%</span>
 						<h1	className="font-medium ">DOLAR</h1>
 						<span>R$ 4,99</span>
 					</div>
@@ -56,7 +56,7 @@ const RecentCoins = () => {
 						<div className="bg-red-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending isNegative={true} size={20}/>
 						</div>
-						<span className="text-sm">-0,84%</span>
+						<span className="text-xs">-0,84%</span>
 						<h1	className="font-medium ">EURO</h1>
 						<span>R$ 5,39</span>
 					</div>
@@ -64,7 +64,7 @@ const RecentCoins = () => {
 						<div className="bg-green-500 text-slate-50 p-1 rounded-xl">
 							<IconsTrending size={20}/>
 						</div>
-						<span className="text-sm">+0,26%</span>
+						<span className="text-xs">+0,26%</span>
 						<h1	className="font-medium ">PESO</h1>
 						<span>R$ 0,022</span>
 					</div>

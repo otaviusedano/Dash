@@ -17,11 +17,11 @@ export default async function Login() {
 					<span className="text-gray-400 pb-4">Welcome Back! Please enter your user.</span>
 					<div className="pb-5">
 						<div className="grid gap-2 py-4">
-							<span className="text-sm font-medium">Email</span>
+							<span className="text-xs font-medium">Email</span>
 							<SearchBar type='email' />
 						</div>
 						<div className="grid gap-2">
-							<span className="text-sm font-medium">Password</span>
+							<span className="text-xs font-medium">Password</span>
 							<SearchBar type='password' />
 						</div>
 					</div>
@@ -30,7 +30,7 @@ export default async function Login() {
 							<input type="checkbox"/>
 							<span className="text-gray-600">Remember me</span>
 						</div>
-						<Link className="text-sm font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Forgot password</Link>
+						<Link className="text-xs font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Forgot password</Link>
 					</div>
 					<Button><Link className="flex justify-center" href={"/"}>Sign in</Link></Button>
 					<span className="text-gray-400 pt-4">Don&apos;t have an account? <Link className="font-bold text-slate-950 hover:underline transition-all" href={"/signup"}>Sign up</Link></span>
