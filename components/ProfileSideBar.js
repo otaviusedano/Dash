@@ -66,7 +66,7 @@ export default async function ProfileSideBar() {
 				<RecentCoins />
 			</div>
 			<div>
-				<h1 className="font-bold pt-6 pb-2 text-xs desktop:text-base">
+				<h1 className="font-semibold pt-6 pb-2 text-xs desktop:text-base">
 					More for Dash.
 				</h1>
 				<Advertising />

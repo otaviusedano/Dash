@@ -7,13 +7,13 @@ const Advertising = () => {
 		<div className="cursor-pointer rounded-md bg-slate-950 text-slate-100 p-4">
             <div className="pb-2 flex justify-between items-center">
                 <FiBox size={66}/>
-                <span className="text-3xl desktop:text-5xl">
+                <span className="text-3xl hidden desktop:block desktop:text-5xl">
                     -
                 </span>
-                <FiCodepen size={66}/>
+                <FiCodepen className="hidden desktop:block" size={66}/>
             </div>
             <div className="flex justify-center items-center">
-                <h1 className="font-bold text-lg desktop:text-xl ">
+                <h1 className="font-bold text-base desktop:text-xl ">
                     Be Unique. Be Dash.
                 </h1>
             </div>
