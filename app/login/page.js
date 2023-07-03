@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import dynamic from "next/dynamic"
 
 import SearchBar from "../../components/SearchBar"
 import Button from "../../components/Button"
@@ -9,7 +8,6 @@ import Link from "next/link"
 
 import image from "../../public/perfil/perfil1.jpg"
 import useAuth from "../../lib/auth/useAuth"
-import { use, cache } from "react"
 import { useSession } from "next-auth/react"
 import { redirect } from "next/navigation"
 
