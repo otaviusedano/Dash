@@ -3,10 +3,10 @@
 import { store } from "../store"
 import { Provider } from "react-redux"
 
-function Providers({children}) {
+function ReduxProvider({children}) {
 	return (
 		<Provider store={store}>{children}</Provider>
 	)
 }
 
-export default Providers
+export default ReduxProvider

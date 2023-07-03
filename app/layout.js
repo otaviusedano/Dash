@@ -1,6 +1,7 @@
 import ProfileSideBar from "../components/ProfileSideBar"
-import Providers from "../components/Providers"
+import ReduxProvider from "./ReduxProvider"
 import SideNav from "../components/SideNav"
+
 import "./globals.css"
 
 export const metadata = {
@@ -12,13 +13,13 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="pt_br">
 			<body>
-				<Providers>
+				<ReduxProvider>
 					<SideNav />
 					<div className="max-w-[75%] mx-[10%] p-6 py-10 min-h-screen bg-slate-50">
 						{children}
 					</div>
 					<ProfileSideBar/>
-				</Providers>
+				</ReduxProvider>
 			</body>
 		</html>
 	)
