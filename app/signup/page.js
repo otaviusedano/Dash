@@ -8,7 +8,6 @@ import SearchBar from "../../components/SearchBar"
 import Button from "../../components/Button"
 
 import imagem1 from "../../public/perfil/perfil2.jpg"
-import { signIn } from "next-auth/react"
 
 const Signup = () => {
 	const { login, setUserInfo, displayMessageOf, isConfirmPassword, setSecondPassword } = useAuth()
