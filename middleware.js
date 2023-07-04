@@ -1,5 +1,18 @@
-export { default } from "next-auth/middleware";
+import { withAuth } from "next-auth/middleware";
 
 export const config = {
   matcher: ["/((?!signup|api|login).*)"],
 };
+
+  
+export default withAuth(
+  function middleware(_) {},
+  {
+    callbacks: {
+      authorized: (params) => {
+        let { token } = params;
+        return !!token;
+      },
+    },
+  }
+)
