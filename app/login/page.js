@@ -8,16 +8,8 @@ import Link from "next/link"
 
 import image from "../../public/perfil/perfil1.jpg"
 import useAuth from "../../lib/auth/useAuth"
-import { useSession } from "next-auth/react"
-import { redirect } from "next/navigation"
 
 const Login = () => {
-  useSession({
-    required: true,
-    onUnauthenticated() {
-      redirect("/login");
-    },
-  });
 
 	const { login, setUserInfo, displayMessageOf } = useAuth()
 
