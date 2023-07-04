@@ -1,9 +1,4 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "../lib/auth/auth";
-
 import Dashboard from "./dashboard/page"
-import { redirect } from "next/navigation";
-
 
 export const metadata = {
 	title: "Dashboard",
