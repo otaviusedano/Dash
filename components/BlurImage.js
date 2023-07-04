@@ -13,7 +13,7 @@ const BlurImage = ({ src, ...props }) => {
       layout="fill"
       objectFit="cover"
       className={`
-          duration-700 ease-in-out
+          w-full duration-700 ease-in-out
           object-cover desktop:object-left-top
           ${
             isLoading
