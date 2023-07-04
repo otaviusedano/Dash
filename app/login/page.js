@@ -12,14 +12,12 @@ import { useSession } from "next-auth/react"
 import { redirect } from "next/navigation"
 
 const Login = () => {
-  const { data } = useSession({
+  useSession({
     required: true,
     onUnauthenticated() {
       redirect("/login");
     },
   });
-
-	console.log(data); 
 
 	const { login, setUserInfo, displayMessageOf } = useAuth()
 
