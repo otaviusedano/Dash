@@ -1,5 +1,5 @@
 import { withAuth } from 'next-auth/middleware'
-import { authOptions } from './lib/auth/auth';
+import { authOptions } from './lib/auth/auth'
 
 
 export default withAuth(
@@ -14,7 +14,7 @@ export default withAuth(
     pages: {
       signIn: '/login',
       signUp: '/signup',
-      error: '/login',
+      error: '/auth/error',
     }
   },
 )
