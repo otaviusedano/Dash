@@ -1,11 +1,12 @@
+export { default } from "next-auth/middleware"
+
 import { getToken } from "next-auth/jwt"
 import { NextResponse } from "next/server"
 
 export async function middleware(req, _) {
   if (req.nextUrl.pathname !== "/login" || "signup") {
     const session = await getToken({
-      req,
-      secret: process.env.NEXTAUTH_SECRET,
+      req
     })
 
     if (!session) {
