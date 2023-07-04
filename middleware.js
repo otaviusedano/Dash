@@ -8,7 +8,12 @@ export default withAuth(
     callbacks: {
       authorized: ({ token }) => token,
     },
-  }
+    pages: {
+      signIn: '/login',
+      signUp: '/signup',
+      error: '/api/auth/error',
+    }
+  },
 )
 
 export const config = {
