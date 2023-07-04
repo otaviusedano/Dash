@@ -14,7 +14,6 @@ export default withAuth(
     pages: {
       signIn: '/login',
       signUp: '/signup',
-      error: '/auth/error',
     }
   },
 )
