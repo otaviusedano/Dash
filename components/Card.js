@@ -1,5 +1,6 @@
-import Image from "next/image"
 
+
+import BlurImage from "../components/BlurImage"
 import IconsTrending from "../components/iconsTrending"
 import colorsVariants from "../components/colorsVariants"
 
@@ -21,7 +22,7 @@ export function Card({coin}) {
 	return (
 		<div key={coin.name} className={`flex p-4 gap-3 text-slate-950 bg-green-100 items-center rounded-md ${colorsVariants({bg})} mt-4`}>
 			<div className={`flex-2 p-2 rounded-md ${colorsVariants({bgWeak})}`}>
-				<Image className="filter grayscale contrast-125" src={coin.small} quality={100} height={26} width={26} alt={coin.name}  />
+				<BlurImage className="filter grayscale contrast-125" src={coin.small} quality={100} height={26} width={26} alt={coin.name}  />
 			</div>
 			<h1 className="flex-1 text-lg font-semibold text-slate-950">{coin.name}</h1>
 			<div className="flex-1 grid">

@@ -1,6 +1,6 @@
+import BlurImage from "../../../components/BlurImage"
 import SearchBar from "../../../components/SearchBar"
 import getUser from "../../../lib/getUser"
-import Image from "next/image"
 
 export const metadata = {
 	title: "Profile",
@@ -18,7 +18,7 @@ export default async function Profile() {
 				<h1 className="font-bold text-xl pb-6">My Profile</h1>
 				<div className="bg-slate-50 p-6 mb-6 rounded-lg">
 					<div className="flex gap-3 items-center">
-						<Image className="rounded-full" quality={100} src={image} height={92} width={92} alt={name} />
+						<BlurImage className="rounded-full" quality={80} src={image} height={92} width={92} alt={name} />
 						<div className="grid gap-1">
 							<h1 className="font-bold text-2xl pb-1">{name}</h1>
 							<span className="font-bold text-xs text-gray-400">Online</span>

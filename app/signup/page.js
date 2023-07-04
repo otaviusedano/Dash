@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import Link from "next/link"
 
 import useAuth from "../../lib/auth/useAuth"
@@ -8,6 +7,7 @@ import SearchBar from "../../components/SearchBar"
 import Button from "../../components/Button"
 
 import imagem1 from "../../public/perfil/perfil2.jpg"
+import BlurImage from "../../components/BlurImage"
 
 const Signup = () => {
 	const { login, setUserInfo, displayMessageOf, isConfirmPassword, setSecondPassword } = useAuth()
@@ -32,7 +32,7 @@ const Signup = () => {
 				<div className="absolute top-[45%] left-[0%] text-center">
 					<span className="text-slate-50 font-semibold text-4xl">&quot;We&apos;ve been using Dash to kick start every new project and can&apos;t imagine working without it.&quot;</span>
 				</div>
-				<Image className="object-cover desktop:object-right-top" quality={100} src={imagem1} alt={imagem1} />
+				<BlurImage className="object-cover desktop:object-right-top" quality={80} src={imagem1} alt={imagem1} />
 				<div className="grid gap-2 absolute bottom-12 left-12">
 					<h1 className="text-slate-50 text-2xl font-bold">Olivia James</h1>
 					<span className="text-slate-50 font-semibold">Lead Designer, Layers</span>

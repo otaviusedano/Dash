@@ -1,10 +1,10 @@
 "use client"
 
-import Image from "next/image"
 
 import SearchBar from "../../components/SearchBar"
 import Button from "../../components/Button"
 import Link from "next/link"
+import BlurImage from "../../components/BlurImage"
 
 import image from "../../public/perfil/perfil1.jpg"
 import useAuth from "../../lib/auth/useAuth"
@@ -68,7 +68,7 @@ const Login = () => {
 				<div className="absolute top-[45%] left-[0%] mx-[10%]">
 					<span className="text-slate-50 font-semibold text-4xl">Be unique. Be authentic. Be Dash, just it.</span>
 				</div>
-				<Image className="object-cover desktop:object-left-top" quality={100} src={image} alt={image} />
+				<BlurImage src={image} />
 				<div className="grid gap-2 absolute bottom-12 left-12">
 					<h1 className="text-slate-50 text-2xl font-bold">Catarina Lawyes</h1>
 					<span className="text-slate-50 font-semibold">CEO, Layers</span>

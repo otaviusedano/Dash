@@ -1,13 +1,12 @@
 "use client"
 
 
-import Image from "next/image"
-
 import { cva } from "class-variance-authority"
 import ChartLine  from "./ChartLine"
 import IconsTrending from "./iconsTrending"
 import colorsVariants from "./colorsVariants"
 import coinReplaced from "../utils/formatPriceCurrency"
+import BlurImage from "./BlurImage"
 
 
 
@@ -47,7 +46,7 @@ const CotationCard = ({ intent, text, bg, bgStrong, coin }) => {
 			<div className="flex-1">
 				<div className="grid grid-flow-col grid-cols-[42px] pb-6">
 					<div className={`flex-1 p-2 rounded-md self-center text-xs ${colorsVariants({bg, text})}`}>
-						<Image className="filter grayscale contrast-125" quality={100} src={coin.image} height={26} width={26} alt={coin.name} />
+						<BlurImage className="filter grayscale contrast-125" quality={100} src={coin.image} height={26} width={26} alt={coin.name} />
 					</div>
 					<div className="pl-4 grid">
 						<span>{coin.name}</span>

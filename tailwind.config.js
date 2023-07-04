@@ -11,6 +11,9 @@ module.exports = {
 			"desktop": "1440px",
 			"big-desktop": "1680px",
 		},
+		corePlugins: {
+			aspectRatio: false,
+		},
 		extend: {
 			backgroundImage: {
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -32,5 +35,7 @@ module.exports = {
 			}
 		},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/aspect-ratio'),
+	],
 }
