@@ -1,12 +1,15 @@
 import { withAuth } from 'next-auth/middleware'
+import { authOptions } from './lib/auth/auth';
+
 
 export default withAuth(
   function middleware(req) {
     console.log(req.nextauth.token)
   },
   {
+    jwt: { decode: authOptions.jwt },
     callbacks: {
-      authorized: ({ token }) => token,
+      authorized: ({ token }) => token
     },
     pages: {
       signIn: '/login',
