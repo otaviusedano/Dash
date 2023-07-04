@@ -1,8 +1,8 @@
 import { withAuth } from "next-auth/middleware";
 
-export const config = {
-  matcher: ["/((?!signup|api|login).*)"],
-};
+// export const config = {
+//   matcher: ["/((?!signup|api|login).*)"],
+// };
 
   
 export default withAuth(
@@ -16,3 +16,10 @@ export default withAuth(
     },
   }
 )
+
+export const config = {
+  matcher: [
+    "/",
+    "/profile/**",
+  ],
+};
